@@ -1,0 +1,32 @@
+
+h1
+{
+	font-family: arial, helvetica, sans-serif;
+	color: maroon;
+}
+
+.background-pink
+{
+	background: pink;
+}
+
+/*
+#selectorId
+{
+
+}
+*/
+.article
+{
+
+}
+	.article__header
+	{
+		font-family: arial, helvetica, sans-serif;
+		color: green;
+	}
+
+	.article__footer
+	{
+		
+	}
