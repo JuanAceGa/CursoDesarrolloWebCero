@@ -30,3 +30,48 @@ h1
 	{
 		
 	}
+
+li[data-RobotOwner="Koji Kabuto"]
+{
+	background-color: olive;
+	color: white;
+}
+
+li[data-RobotOwner="Sayaka Yumi"]
+{
+	background-color: brown;
+	color: white;
+}
+
+input[type="email"]:valid
+{
+	background-color: peru;
+}
+
+input[type="email"]:focus:invalid
+{
+	background-color: red;
+}
+
+/*
+.toogle:checked ~ .checked
+{
+	background-color: olive;
+}
+.checked
+{
+	height: 100px;
+	width: 100px;
+	background-color: peru;
+}
+*/
+.toogle:checked + .checked
+{
+	background-color: olive;
+}
+.checked
+{
+	height: 100px;
+	width: 100px;
+	background-color: peru;
+}
