@@ -31,7 +31,7 @@ body
 @media all and (max-width: 400px){
 	html
 	{
-		font-size: 80%;
+		font-size: 90%;
 	}
 
 	.main-header
@@ -51,12 +51,12 @@ body
 }
 	.card--mv
 	{
-		background-image:url(https://www.medellin.gov.co/irj/go/km/docs/wpccontent/Sites/Portal%20Ciudad%20de%20Medell%C3%ADn/Galer%C3%ADas%20de%20Im%C3%A1genes/Galer%C3%ADas/Programas%20Bandera/big/DSC02854.JPG);		
+		background-image:url(../img/Med2.JPG);		
 	}
 
 	.card--valencia
 	{
-		background-image:url(http://www.medellin.travel/sites/default/files/styles/slider_home980x380/public/banner-medellin-mar_0.jpg?itok=7lMIHAlQ);
+		background-image:url(../img/Med1.JPG);
 	}
 
 	.card__title
