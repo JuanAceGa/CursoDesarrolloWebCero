@@ -13,9 +13,17 @@
 		<h2>An awesome way to see how we burn by global warming</h2>
 	</header>
 	
-	<div class="loader">
-		Geolocalizando tu posición, por favor espere...
-	</div>
+	<div class="loader">Geolocalizando la ubicación, por favor espere...	</div>
+
+	<form action="" class="search">
+		<input type="text" data-city="cityAdd" class="search__text" placeholder="Agregue una nueva ciudad..."></input>
+
+		<input type="submit" data-btn class="search__btn btn" value="Añadir una nueva ciudad"></input>
+
+		<button data-saved-cities>Ver ciudades guardadas</button>
+
+	</form>
+
 	<main class="cards-group">
 		<template id="template--city">
 			<div class="card card--valencia card--mv">
